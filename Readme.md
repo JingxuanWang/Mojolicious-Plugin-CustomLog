@@ -1,12 +1,12 @@
-=head1 NAME
+# NAME
 
 Mojolicious::Plugin::CustomLog - A custom logger that can output log by date and type
 
-=head1 VERSION
+# VERSION
 
 version 0.01
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
 Provides custom log utilities that can output log by date and type
 
@@ -31,36 +31,30 @@ Provides custom log utilities that can output log by date and type
         Global::CLog->error('check', "this is error log");
     }
 
-=head1 CONFIGURATION
+# CONFIGURATION
 
-=head2 CONFIGURE YOUR OWN LOGGER
+## CONFIGURE YOUR OWN LOGGER
 
-=over 3
-
-=item 'path'        should contain at least a key value pair that identifies the path of the log
-
-=item 'helper'      the name of the helper to associate with the logger (default: clog)
-
-=item 'alias'       if provided, an alias of CustomLog object will be created
-
-=back
+- 'path'        should contain at least a key value pair that identifies the path of the log
+- 'helper'      the name of the helper to associate with the logger (default: clog)
+- 'alias'       if provided, an alias of CustomLog object will be created
 
 There should be at least one log defined. Other configs are optional.
 
-=head1 METHODS/HELPERS
+# METHODS/HELPERS
 
 A helper is created with a name you specified (or 'clog' by default).
 
-=head1 AUTHOR
+# AUTHOR
 
-Jingxuan Wang, C<< <lxem.wjx@gmail.com> >>
+Jingxuan Wang, `<lxem.wjx@gmail.com>`
 
-=head1 BUGS/CONTRIBUTING
+# BUGS/CONTRIBUTING
 
-Please report any bugs or feature requests to through the web interface at L<https://github.com/jingxuanwang/Mojolicious-Plugin-CustomLog/issues>.
-If you want to contribute changes or otherwise involve yourself in development, feel free to fork the Git repository from L<https://github.com/jingxuanwang/Mojolicious-Plugin-CustomLog/>.
+Please report any bugs or feature requests to through the web interface at [https://github.com/jingxuanwang/Mojolicious-Plugin-CustomLog/issues](https://github.com/jingxuanwang/Mojolicious-Plugin-CustomLog/issues).
+If you want to contribute changes or otherwise involve yourself in development, feel free to fork the Git repository from [https://github.com/jingxuanwang/Mojolicious-Plugin-CustomLog/](https://github.com/jingxuanwang/Mojolicious-Plugin-CustomLog/).
 
-=head1 LICENSE AND COPYRIGHT
+# LICENSE AND COPYRIGHT
 
 Copyright 2016- Jingxuan Wang.
 
@@ -69,5 +63,3 @@ under the terms of either: the GNU General Public License as published
 by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
-
-=cut
