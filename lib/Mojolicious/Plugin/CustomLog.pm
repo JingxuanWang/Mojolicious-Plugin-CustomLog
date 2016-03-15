@@ -172,7 +172,7 @@ Provides custom log utilities that can output log by date and type
 
 =item 'helper'      the name of the helper to associate with the logger (default: clog)
 
-=item 'alias'       if provided, a alias of CustomLog object will be created
+=item 'alias'       if provided, an alias of CustomLog object will be created
 
 =back
 
