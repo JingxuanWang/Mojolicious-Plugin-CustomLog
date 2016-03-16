@@ -1,6 +1,6 @@
 package Mojolicious::Plugin::CustomLog;
 
-$Mojolicious::Plugin::CustomLog::VERSION = '0.01';
+$Mojolicious::Plugin::CustomLog::VERSION = '0.03';
 
 use Mojo::Base 'Mojolicious::Plugin';
 
@@ -135,7 +135,7 @@ Mojolicious::Plugin::CustomLog - A custom logger that can output log by date and
 
 =head1 VERSION
 
-version 0.01
+version 0.03
 
 =head1 SYNOPSIS
 
