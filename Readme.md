@@ -4,7 +4,7 @@ Mojolicious::Plugin::CustomLog - A custom logger that can output log by date and
 
 # VERSION
 
-version 0.04
+version 0.05
 
 # SYNOPSIS
 

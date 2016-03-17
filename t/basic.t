@@ -34,25 +34,25 @@ my ($second, $minute, $hour, $day, $month, $year, $weekday, $yesterday, $is_dst)
 my $date = sprintf("%04d%02d%02d", $year + 1900, $month + 1, $day);
 
 my $file = "test_development.log.$date";
-open FILE, "<$file" or die "Can not open file $file";
+open FILE, "<t/$file" or die "Can not open file $file";
 my $log = <FILE>;
 chomp($log);
 
 ok($log =~ "test log", "check log content");
 ok($log =~ "\[debug\]", "check log mode");
 
-`rm $file`;
+`rm t/$file`;
 
 
-my $file = "error_development.log.$date";
-open FILE, "<$file" or die "Can not open file $file";
-my $log = <FILE>;
+$file = "error_development.log.$date";
+open FILE, "<t/$file" or die "Can not open file $file";
+$log = <FILE>;
 chomp($log);
 
 ok($log =~ "error log", "check log content");
 ok($log =~ "\[error\]", "check log mode");
 
-`rm $file`;
+`rm t/$file`;
 
 
 
