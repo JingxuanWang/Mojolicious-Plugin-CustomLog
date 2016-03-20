@@ -47,7 +47,7 @@ A helper is created with a name you specified (or 'clog' by default).
 
 # AUTHOR
 
-Jingxuan Wang, `<lxem.wjx@gmail.com>`
+Jingxuan Wang, `<wjx@cpan.org>`
 
 # BUGS/CONTRIBUTING
 

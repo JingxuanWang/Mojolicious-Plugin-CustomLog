@@ -184,7 +184,7 @@ A helper is created with a name you specified (or 'clog' by default).
 
 =head1 AUTHOR
 
-Jingxuan Wang, C<< <lxem.wjx@gmail.com> >>
+Jingxuan Wang, C<< <wjx@cpan.org> >>
 
 =head1 BUGS/CONTRIBUTING
 
